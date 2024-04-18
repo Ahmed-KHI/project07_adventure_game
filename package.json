@@ -1,0 +1,21 @@
+{
+  "name": "ahmed-115-project07_adventure_game",
+  "version": "1.0.0",
+  "description": "This code is for a text-based fighting game written in TypeScript. Players choose an opponent from a list and engage in a turn-based battle. Each turn, the player can attack, drink a health potion, or run away. The outcome of an attack is random, with a 50% chance of success for both the player and the opponent. Players and opponents have a fuel stat that represents their health, and the game ends when either player's fuel reaches zero.",
+  "main": "game.js",
+  "type": "module",
+  "bin": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Text-based game","Fighting game","Turn-based","Random chance","Health stat","Player vs Opponent","Inquirer.js","Chalk"],
+  "author": "Mirza Muhammad Ahmed (00263838)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
